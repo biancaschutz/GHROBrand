@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Human Rights Outlook Brand and Style Guide",
+    "section": "",
+    "text": "Colours"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "palettes.html",
+    "href": "palettes.html",
+    "title": "Colour Palettes",
+    "section": "",
+    "text": "The Office of the High Commissioner for Human Rights (OHCHR) uses blue, neutral, and black as its primary colours.\n\n\n\n\nOHCHR’s brand book also includes a set of secondary colours to use for accents and other parts of OHCHR products.\n\n\n\n\nThe home screen’s dial uses a Hub-inspired palette, a 21-colour gradient from #eb8872 to #0d65af."
+  },
+  {
+    "objectID": "palettes.html#primary-palette",
+    "href": "palettes.html#primary-palette",
+    "title": "Colour Palettes",
+    "section": "",
+    "text": "The Office of the High Commissioner for Human Rights (OHCHR) uses blue, neutral, and black as its primary colours."
+  },
+  {
+    "objectID": "palettes.html#secondary-palette",
+    "href": "palettes.html#secondary-palette",
+    "title": "Colour Palettes",
+    "section": "",
+    "text": "OHCHR’s brand book also includes a set of secondary colours to use for accents and other parts of OHCHR products."
+  },
+  {
+    "objectID": "palettes.html#dial-palette",
+    "href": "palettes.html#dial-palette",
+    "title": "Colour Palettes",
+    "section": "",
+    "text": "The home screen’s dial uses a Hub-inspired palette, a 21-colour gradient from #eb8872 to #0d65af."
+  },
+  {
+    "objectID": "palettes.html#single-colour-and-highlight-palette",
+    "href": "palettes.html#single-colour-and-highlight-palette",
+    "title": "Colour Palettes",
+    "section": "Single Colour and Highlight Palette",
+    "text": "Single Colour and Highlight Palette\nFor visualizations that highlight a particular quantity compared to other series (for example, a line chart highlighting the world time series but also showing other regions), use the following colours. If creating a visualization with just one colour, use either OHCHR Blue (#006fb7) or Stand Up Orange (#faa31b)"
+  },
+  {
+    "objectID": "palettes.html#regional-palette",
+    "href": "palettes.html#regional-palette",
+    "title": "Colour Palettes",
+    "section": "Regional Palette",
+    "text": "Regional Palette\nFor visualizations comparing the five main UN Statistics Division regions, use the following palette, mapping regions to these colours consistently to avoid confusion looking at different visualizations:"
+  },
+  {
+    "objectID": "palettes.html#categorical-palette",
+    "href": "palettes.html#categorical-palette",
+    "title": "Colour Palettes",
+    "section": "Categorical Palette",
+    "text": "Categorical Palette\nFor visualizations that use up to 7 qualitative categories, use the Okabe-Ito palette:"
+  },
+  {
+    "objectID": "palettes.html#gender-palette",
+    "href": "palettes.html#gender-palette",
+    "title": "Colour Palettes",
+    "section": "Gender Palette",
+    "text": "Gender Palette\nFor visualizations comparing by sex/gender, use the following palette, inspired by the “Votes for Women” movement in the UK:"
+  }
+]

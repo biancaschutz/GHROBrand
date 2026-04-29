@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    margin: 15px;
+}
+
+.palette, 
+.palette * {
+    box-sizing: border-box;
+}
+
+.palette {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.palette__color {
+    height: 100px;
+    position: relative;
+}
+
+.palette__desc {
+    padding: 5px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.palette__name {
+    padding: 5px;
+    padding-top: 0px;
+    width: 100%;
+    color: #4a4a4a;
+}
+
+
+.palette__details {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background-color: white;
+    border-top: 1px solid #dddddd;
+}
+
+.palette__overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: background 0.2s ease, color 0.2s ease;
+    pointer-events: none;    /* let clicks pass through to elmColor */
+}
+
+.palette__color:hover .palette__overlay {
+    background: rgba(0, 0, 0, 0.35);
+    color: rgba(255, 255, 255, 1);
+}
+
+.palette__color--copied .palette__overlay {
+    background: rgba(0, 0, 0, 0.55);
+    color: rgba(255, 255, 255, 1);
+}
+
+.palette__item {
+    border-radius: 25px;
+    overflow: hidden;
+        border: 1px solid #dddddd;
+}
+
+/* Continuous palette overrides */
+.palette__item--continuous {
+    border-radius: 0px;        /* sharper corners for a strip-like look */
+}
+
+.palette__color--continuous {
+    height: 60px;              /* shorter swatch for a compact strip */
+}
+
+.palette__details--continuous {
+    padding: 6px 10px;
+    background-color: #f9f9f9;
+}
+
+.palette__name--continuous {
+    padding: 0;
+    font-size: 0.75rem;
+    color: #6b6b6b;
+    text-align: center;
+}
+
+.palette--continuous {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 0;
+    padding-top: 0;
+    overflow-x: auto;
+}
+
+.palette--continuous .palette__item--continuous {
+    border-radius: 0;
+    border-right: none;
+}
