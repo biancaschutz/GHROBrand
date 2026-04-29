@@ -1,0 +1,38 @@
+[
+    {
+        "desc": "UN Blue",
+        "color": "#009EDB"
+    },
+    {
+        "desc": "Water Blue",
+        "color": "#55C8FF"
+    },
+    {
+        "desc": "Green",
+        "color": "#26a465"
+    },
+        {
+        "desc": "Forest Green",
+        "color": "#004940"
+    },
+        {
+        "desc": "Sand",
+        "color": "#c6bd99"
+    },
+        {
+        "desc": "Earth",
+        "color": "#6c3928"
+    },
+        {
+        "desc": "Yellow",
+        "color": "#ffc101"
+    },
+        {
+        "desc": "Stand Up Orange",
+        "color": "#faa31b"
+    },
+    {
+        "desc": "Red",
+        "color": "#DF2626"
+    }
+]

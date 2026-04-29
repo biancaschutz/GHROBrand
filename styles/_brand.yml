@@ -1,0 +1,17 @@
+color:
+  palette:
+    blue: "#006fb7"
+    bg: "#F4F6FA"
+  background: "#F4F6FA"
+  foreground: "#4a4a4a"
+  primary: "#006fb7"
+
+logo:
+  medium: logo.png
+
+typography:
+  fonts:
+    - family: Roboto
+      source: google
+  base: Roboto
+  headings: Roboto

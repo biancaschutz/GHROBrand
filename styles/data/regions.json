@@ -1,0 +1,22 @@
+[
+    {
+        "desc": "Africa",
+        "color": "#81ac31"
+    },
+    {
+        "desc": "Americas",
+        "color": "#16b5c5"
+    },
+    {
+        "desc": "Asia",
+        "color": "#f78e1e"
+    },
+        {
+        "desc": "Europe",
+        "color": "#b95380"
+    },
+        {
+        "desc": "Oceania",
+        "color": "#8a69a1"
+    }
+]

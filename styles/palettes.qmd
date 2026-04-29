@@ -1,0 +1,51 @@
+---
+title: "Colour Palettes"
+format: 
+    html:
+        css: src/main.css
+        include-after-body: paletteEls.html
+        page-layout: full
+---
+
+# Website
+
+## Primary Palette
+
+The Office of the High Commissioner for Human Rights (OHCHR) uses blue, neutral, and black as its primary colours. 
+```{=html}
+<div class="palette prim"></div>
+```
+## Secondary Palette
+
+OHCHR's brand book also includes a set of secondary colours to use for accents and other parts of OHCHR products. 
+```{=html}
+<div class="palette sec"></div>
+```
+
+## Dial Palette
+
+The home screen's dial uses a Hub-inspired palette, a 21-colour gradient from #eb8872 to #0d65af.
+```{=html}
+<div class="palette palette--continuous dial"></div>
+```
+# Visualizations
+
+## Single Colour and Highlight Palette
+For visualizations that highlight a particular quantity compared to other series (for example, a line chart highlighting the world time series but also showing other regions), use the following colours. If creating a visualization with just one colour, use either OHCHR Blue (#006fb7) or Stand Up Orange (#faa31b)
+```{=html}
+<div class="palette highlight"></div>
+```
+
+## Regional Palette
+For visualizations comparing the five main [UN Statistics Division regions](https://unstats.un.org/unsd/methodology/m49/), use the following palette, mapping regions to these colours consistently to avoid confusion looking at different visualizations:
+```{=html}
+<div class="palette regions"></div>
+```
+
+## Categorical Palette
+For visualizations that use up to 7 qualitative categories, use the Okabe-Ito palette: 
+<div class="palette okabeito"></div>
+
+## Gender Palette
+For visualizations comparing by sex/gender, use the following palette, inspired by the "Votes for Women" movement in the UK:
+<div class="palette gender"></div>
